@@ -15,10 +15,10 @@ npx expo start --android
 5- iOSta çalıştırmak için
 npx expo start --ios
 
-Uygulama ekran görüntüsü 
+Uygulama ekran görüntüsü ana proje dizininde mevcuttur.
 
 
 
 
-https://github.com/mertkutukcu07/BlogTask/assets/102996772/9d961202-f9ec-488e-a597-96a18f535058
+
 
