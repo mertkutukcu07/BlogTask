@@ -5,6 +5,7 @@ import {
   View,
   TextInput,
   TouchableOpacity,
+  SafeAreaView,
 } from "react-native";
 import { moderateScale } from "react-native-size-matters";
 import { useSelector, useDispatch } from "react-redux";
@@ -27,13 +28,12 @@ const AddBlog = ({ navigation }) => {
     dispatch(addBlogs(blogData));
     setBlogTitle("");
     setBlogContent("");
-    navigation.navigate("Home");
   };
   if (loading) {
     return <Loading visible={loading} />;
   }
   return (
-    <View style={styles.container}>
+    <SafeAreaView style={styles.container}>
       <View style={styles.inputContainer}>
         <TextInput
           style={styles.input}
@@ -53,7 +53,7 @@ const AddBlog = ({ navigation }) => {
       <TouchableOpacity style={styles.addButton} onPress={handleAddBlog}>
         <Text style={styles.buttonText}>Ekle</Text>
       </TouchableOpacity>
-    </View>
+    </SafeAreaView>
   );
 };
 

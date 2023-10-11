@@ -1,6 +1,6 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import * as api from "../services/api";
-
+import Toast from "react-native-toast-message";
 export const fetchAllBlogs = createAsyncThunk("blogs/fetchAll", async () => {
   try {
     const response = await api.getAllBlogs();
@@ -84,7 +84,11 @@ const blogsSlice = createSlice({
       .addCase(addBlogs.fulfilled, (state, action) => {
         state.loading = false;
         state.data.push(action.payload);
-        console.log(action.payload);
+        Toast.show({
+          type: "success",
+          text1: "Başarılı",
+          text2: "Blog yazınız başarıyla eklendi.",
+        });
       })
       .addCase(addBlogs.rejected, (state, action) => {
         state.loading = false;
@@ -97,6 +101,11 @@ const blogsSlice = createSlice({
       .addCase(deleteBlogs.fulfilled, (state, action) => {
         state.loading = false;
         state.data = state.data.filter((blog) => blog.id !== action.payload);
+        Toast.show({
+          type: "success",
+          text1: "Başarılı",
+          text2: "Blog yazınız başarıyla silindi.",
+        });
       })
       .addCase(deleteBlogs.rejected, (state, action) => {
         state.loading = false;
