@@ -26,11 +26,6 @@
       "content": "Veri bilimi alanındaki yeni gelişmeler ve büyük veri analizi teknikleri. Veri bilimi, büyük veri setlerinden anlamlı bilgiler çıkarma sürecidir. Büyük veri analizi, veri setlerindeki desenleri ve ilişkileri belirlemek için kullanılan istatistiksel ve matematiksel teknikleri içerir."
     },
     {
-      "id": 8,
-      "title": "Uzay Turizmi: Geleceğin Tatil Trendi",
-      "content": "Uzay turizminin gelişimi, uzay otelleri ve gelecekte uzaya yapılan turistik seyahatler. Uzay turizmi, insanların uzaya seyahat etmeyi ve uzaydaki deneyimleri yaşamayı amaçlayan bir endüstridir. Uzay otelleri, uzayda konaklama imkanı sunacak tesislerdir ve gelecekte turistler için yeni bir tatil deneyimi sunabilir."
-    },
-    {
       "id": 9,
       "title": "Çevre Dostu Teknolojiler",
       "content": "Çevre dostu teknolojilerin yaygınlaşması ve dünyamızı koruma üzerine stratejiler. Çevre dostu teknolojiler, doğal kaynakları korumak, enerji verimliliğini artırmak ve çevresel etkileri azaltmak için tasarlanmış teknolojilerdir. Bu teknolojiler, iklim değişikliği ve doğal kaynak tükenmesi gibi çevresel sorunlara çözüm sunabilir."
@@ -79,16 +74,6 @@
       "id": 18,
       "title": "Yapay Zeka Destekli Sağlık Hizmetleri",
       "content": "Yapay zeka ve makine öğrenmesi ile desteklenen sağlık hizmetleri, teşhis, tedavi ve hasta bakımı. Yapay zeka, sağlık sektöründe birçok fayda sağlayabilir. Yapay zeka tabanlı teşhis sistemleri, hastalıkları erken teşhis etmek ve doğru tedavi planları oluşturmak için kullanılabilir. Makine öğrenmesi, büyük veri setlerini analiz edebilir ve hastaların tedavi sonuçlarını iyileştirmek için kullanılabilir."
-    },
-    {
-      "id": 19,
-      "title": "Robot Teknolojisi ve Endüstriyel Kullanımı",
-      "content": "Endüstriyel robotlar, otomasyon sistemleri ve yapay zeka ile güçlendirilmiş üretim süreçleri. Robot teknolojisi, makinelerin insan benzeri görevleri yerine getirebildiği bir teknoloji dalıdır. Endüstriyel robotlar, üretim hatlarında otomasyonu sağlamak için kullanılır. Yapay zeka ile güçlendirilmiş robotlar, karmaşık görevleri yerine getirebilir ve üretim verimliliğini artırabilir."
-    },
-    {
-      "id": 20,
-      "title": "Yeni Nesil Otomobiller ve Sürücüsüz Araçlar",
-      "content": "Elektrikli araçlar, otonom sürüş teknolojileri ve geleceğin ulaşım trendleri."
     }
   ]
 }

@@ -6,15 +6,18 @@ import Loading from "../components/Loading";
 import { SafeAreaView } from "react-native-safe-area-context";
 import Colors from "../constants/Colors";
 import { moderateScale } from "react-native-size-matters";
+import { useFocusEffect } from "@react-navigation/native";
 const BlogDetail = ({ route }) => {
   const id = route.params;
   const blogs = useSelector((state) => state.blogs.data);
   const loading = useSelector((state) => state.blogs.loading);
   const error = useSelector((state) => state.blogs.error);
   const dispatch = useDispatch();
-  useEffect(() => {
-    dispatch(singleBlogs(id));
-  }, [dispatch, id]);
+  useFocusEffect(
+    React.useCallback(() => {
+      dispatch(singleBlogs(id));
+    }, [id, dispatch])
+  );
 
   if (loading) {
     return <Loading visible={loading} />;

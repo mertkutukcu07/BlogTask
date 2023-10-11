@@ -88,6 +88,7 @@ const blogsSlice = createSlice({
           type: "success",
           text1: "Başarılı",
           text2: "Blog yazınız başarıyla eklendi.",
+          visibilityTime: 2000,
         });
       })
       .addCase(addBlogs.rejected, (state, action) => {
@@ -105,6 +106,7 @@ const blogsSlice = createSlice({
           type: "success",
           text1: "Başarılı",
           text2: "Blog yazınız başarıyla silindi.",
+          visibilityTime: 2000,
         });
       })
       .addCase(deleteBlogs.rejected, (state, action) => {
