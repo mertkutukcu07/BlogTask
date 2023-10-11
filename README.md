@@ -17,4 +17,8 @@ npx expo start --ios
 
 Uygulama ekran görüntüsü 
 
-![Simulator Screen Recording - iPhone 14 Pro - 2023-10-11 at 13 17 13](https://github.com/mertkutukcu07/BlogTask/assets/102996772/44e8ddea-b37e-437d-8138-693a860f4293)
+
+
+
+https://github.com/mertkutukcu07/BlogTask/assets/102996772/9d961202-f9ec-488e-a597-96a18f535058
+
